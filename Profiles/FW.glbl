@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>FW</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>QA Env Selection</description>
+      <initValue>'FW'</initValue>
+      <name>DataFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'FW'</initValue>
+      <name>selectENV</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

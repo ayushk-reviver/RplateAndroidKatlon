@@ -15,21 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/ayush/Desktop/APKs/Rplate26sept120.apk', true)
 
-Mobile.waitForElementPresent(findTestObject('StartPage/android.widget.TextView0 - QA'), 5)
-
-Mobile.tap(findTestObject('StartPage/android.widget.TextView0 - QA'), 0)
+CustomKeywords.'com.reviver.utils.CommonUtils.selectEnv_Mobile'(GlobalVariable.selectENV, 5)
 
 Mobile.waitForElementPresent(findTestObject('StartPage/android.widget.TextView0 - SIGN IN'), 5)
 
 Mobile.tap(findTestObject('StartPage/android.widget.TextView0 - SIGN IN'), 0)
 
-Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter email'), 'ayush.kumar+qa7@revivertest.com', 0)
+Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter email'), findTestData(GlobalVariable.DataFile).getValue(
+        1, 1), 0)
 
-Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter password'), 'Tester@123', 0)
+Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter password'), findTestData(GlobalVariable.DataFile).getValue(
+        2, 1), 0)
 
 Mobile.tap(findTestObject('LoginPage/android.widget.Button0 - SIGN IN'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Homepage/Burger Icon'), 10)
 
-Mobile.closeApplication()
+
 
