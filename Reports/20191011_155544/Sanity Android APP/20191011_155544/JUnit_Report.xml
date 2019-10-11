@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Sanity Android APP" time="148" tests="4" failures="0" errors="0">
+    <testsuite name="Sanity Android APP" tests="4" failures="0" errors="0" time="148" timestamp="2019-10-11 15:57:33" hostname="ayush - 10.97.6.181" id="Test Suites/Sanity Android APP">
+        <properties>
+            <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/ayush/Katalon Studio/RplateAndroid/Reports/20191011_155544/Sanity Android APP/20191011_155544"/>
+            <property name="logFiles" value="/Users/ayush/Katalon Studio/RplateAndroid/Reports/20191011_155544/Sanity Android APP/20191011_155544/execution0.log, /Users/ayush/Katalon Studio/RplateAndroid/Reports/20191011_155544/Sanity Android APP/20191011_155544/appium.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="ayush - 10.97.6.181"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="appiumServerStatus" value="{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.13.0\&quot;}},\&quot;sessionId\&quot;:null}"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.13.0"/>
+            <property name="deviceModel" value="Android SDK built for x86"/>
+            <property name="hostAddress" value="10.97.6.181"/>
+            <property name="deviceManufacturer" value="Google"/>
+            <property name="deviceId" value="emulator-5554"/>
+            <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+            <property name="deviceOSVersion" value="9"/>
+        </properties>
+        <testcase name="Test Cases/Login/P0_Verify User can enter valid password" classname="Test Cases/Login/P0_Verify User can enter valid password" status="PASSED">
+            <system-out>2019-10-11 15:57:33 - [TEST_CASE][PASSED] - Test Cases/Login/P0_Verify User can enter valid password: Test Cases/Login/P0_Verify User can enter valid password
+
+2019-10-11 15:57:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Loginintoapp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Loginintoapp' successfully
+
+2019-10-11 15:57:34 - [TEST_CASE][PASSED] - Test Cases/Loginintoapp: Test Cases/Loginintoapp
+
+2019-10-11 15:57:34 - [TEST_STEP][PASSED] - startApplication("/Users/ayush/Desktop/APKs/Rplate26sept120.apk", true): Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:57:36 - [MESSAGE][INFO] - Appium server started on port 58,995
+
+2019-10-11 15:57:52 - [MESSAGE][PASSED] - Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:57:52 - [TEST_STEP][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile(selectENV, 5): com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:57:52 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - QA' is present
+
+2019-10-11 15:57:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:57:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - QA'
+
+2019-10-11 15:57:53 - [MESSAGE][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:57:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 5): Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:57:55 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:57:55 - [TEST_STEP][PASSED] - tap(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 0): Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:57:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:57:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:57:57 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter email"), findTestData(DataFile).getValue(1, 1), 0): Text 'ayush.kumar+qa7@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:57:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:00 - [MESSAGE][PASSED] - Text 'ayush.kumar+qa7@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter password"), findTestData(DataFile).getValue(2, 1), 0): Text 'Tester@123' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:58:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:02 - [MESSAGE][PASSED] - Text 'Tester@123' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:58:02 - [TEST_STEP][PASSED] - tap(findTestObject("LoginPage/android.widget.Button0 - SIGN IN"), 0): Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:58:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:58:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/Burger Icon"), 10): Element 'Object Repository/Homepage/Burger Icon' is present
+
+2019-10-11 15:58:09 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/Burger Icon' is present
+
+2019-10-11 15:58:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Loginintoapp' successfully
+
+2019-10-11 15:58:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/page title"), 0): Element 'Object Repository/Homepage/page title' is exist
+
+2019-10-11 15:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:10 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/page title' is exist
+
+2019-10-11 15:58:10 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Burger Icon"), 0): Tapped on element 'Object Repository/Homepage/Burger Icon'
+
+2019-10-11 15:58:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Burger Icon'
+
+2019-10-11 15:58:11 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Burger Menu/User ID"), "text", findTestData(DataFile).getValue(1, 1), 0): Object 'Object Repository/Burger Menu/User ID' has attribute 'text' with value 'ayush.kumar+qa7@revivertest.com'
+
+2019-10-11 15:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Burger Menu/User ID' has attribute 'text' with value 'ayush.kumar+qa7@revivertest.com'
+
+2019-10-11 15:58:11 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-10-11 15:58:13 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login/P0_Verify User can enter invalid password" classname="Test Cases/Login/P0_Verify User can enter invalid password" status="PASSED">
+            <system-out>2019-10-11 15:58:13 - [TEST_CASE][PASSED] - Test Cases/Login/P0_Verify User can enter invalid password: Test Cases/Login/P0_Verify User can enter invalid password
+
+2019-10-11 15:58:13 - [TEST_STEP][PASSED] - startApplication("/Users/ayush/Desktop/APKs/Rplate26sept120.apk", true): Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:58:15 - [MESSAGE][INFO] - Appium server started on port 59,229
+
+2019-10-11 15:58:29 - [MESSAGE][PASSED] - Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:58:29 - [TEST_STEP][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile(selectENV, 5): com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:58:30 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - QA' is present
+
+2019-10-11 15:58:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - QA'
+
+2019-10-11 15:58:30 - [MESSAGE][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:58:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 5): Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:58:33 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:58:33 - [TEST_STEP][PASSED] - tap(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 0): Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:58:35 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter email"), findTestData(DataFile).getValue(1, 1), 0): Text 'ayush.kumar+qa7@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:36 - [MESSAGE][PASSED] - Text 'ayush.kumar+qa7@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter password"), "Test12#$", 0): Text 'Test12#$' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:38 - [MESSAGE][PASSED] - Text 'Test12#$' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:58:38 - [TEST_STEP][PASSED] - tap(findTestObject("LoginPage/android.widget.Button0 - SIGN IN"), 0): Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:58:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("LoginPage/android.widget.TextView0 - Invalid email or password. Please try again"), 0): Element 'Object Repository/LoginPage/android.widget.TextView0 - Invalid email or password. Please try again' is visible
+
+2019-10-11 15:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:41 - [MESSAGE][PASSED] - Element 'Object Repository/LoginPage/android.widget.TextView0 - Invalid email or password. Please try again' is visible
+
+2019-10-11 15:58:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("LoginPage/android.widget.TextView0 - Invalid email or password. Please try again (1)"), 0): Element 'Object Repository/LoginPage/android.widget.TextView0 - Invalid email or password. Please try again (1)' is visible
+
+2019-10-11 15:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:58:41 - [MESSAGE][PASSED] - Element 'Object Repository/LoginPage/android.widget.TextView0 - Invalid email or password. Please try again (1)' is visible
+
+2019-10-11 15:58:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-10-11 15:58:43 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login/P0_Verify login with a user having no plates assigned yet" classname="Test Cases/Login/P0_Verify login with a user having no plates assigned yet" status="PASSED">
+            <system-out>2019-10-11 15:58:43 - [TEST_CASE][PASSED] - Test Cases/Login/P0_Verify login with a user having no plates assigned yet: Test Cases/Login/P0_Verify login with a user having no plates assigned yet
+
+2019-10-11 15:58:43 - [TEST_STEP][PASSED] - startApplication("/Users/ayush/Desktop/APKs/Rplate26sept120.apk", true): Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:58:45 - [MESSAGE][INFO] - Appium server started on port 59,428
+
+2019-10-11 15:59:00 - [MESSAGE][PASSED] - Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:59:00 - [TEST_STEP][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile(selectENV, 5): com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:59:01 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - QA' is present
+
+2019-10-11 15:59:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - QA'
+
+2019-10-11 15:59:02 - [MESSAGE][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:59:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 5): Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:04 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:04 - [TEST_STEP][PASSED] - tap(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 0): Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:59:06 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter email"), findTestData(DataFile).getValue(1, 2), 0): Text 'ayush.kumar+noplates@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:59:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:08 - [MESSAGE][PASSED] - Text 'ayush.kumar+noplates@revivertest.com' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter email'
+
+2019-10-11 15:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/android.widget.EditText0 - Enter password"), findTestData(DataFile).getValue(2, 2), 0): Text 'Tester@123' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:10 - [MESSAGE][PASSED] - Text 'Tester@123' has been set to element 'Object Repository/LoginPage/android.widget.EditText0 - Enter password'
+
+2019-10-11 15:59:10 - [TEST_STEP][PASSED] - tap(findTestObject("LoginPage/android.widget.Button0 - SIGN IN"), 0): Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginPage/android.widget.Button0 - SIGN IN'
+
+2019-10-11 15:59:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/Burger Icon"), 10): Element 'Object Repository/Homepage/Burger Icon' is present
+
+2019-10-11 15:59:16 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/Burger Icon' is present
+
+2019-10-11 15:59:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/No plate image"), 0): Element 'Object Repository/Homepage/No plate image' is visible
+
+2019-10-11 15:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:16 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/No plate image' is visible
+
+2019-10-11 15:59:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Homepage/no plate text 3"), "text", "Note: This may take 1–3 business days from when your order is processed.", 0): Object 'Object Repository/Homepage/no plate text 3' has attribute 'text' with value 'Note: This may take 1–3 business days from when your order is processed.'
+
+2019-10-11 15:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/no plate text 3' has attribute 'text' with value 'Note: This may take 1–3 business days from when your order is processed.'
+
+2019-10-11 15:59:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Homepage/no plate text1"), "text", "It looks like your plates haven’t been added to your account.", 0): Object 'Object Repository/Homepage/no plate text1' has attribute 'text' with value 'It looks like your plates haven’t been added to your account.'
+
+2019-10-11 15:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/no plate text1' has attribute 'text' with value 'It looks like your plates haven’t been added to your account.'
+
+2019-10-11 15:59:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Homepage/no plate text2"), "text", "You will be notified when your plate has been added to your account.", 0): Object 'Object Repository/Homepage/no plate text2' has attribute 'text' with value 'You will be notified when your plate has been added to your account.'
+
+2019-10-11 15:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/no plate text2' has attribute 'text' with value 'You will be notified when your plate has been added to your account.'
+
+2019-10-11 15:59:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/No Plates Found text"), 0): Element 'Object Repository/Homepage/No Plates Found text' is visible
+
+2019-10-11 15:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:17 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/No Plates Found text' is visible
+
+2019-10-11 15:59:17 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/Burger Icon"), 0): Tapped on element 'Object Repository/Homepage/Burger Icon'
+
+2019-10-11 15:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/Burger Icon'
+
+2019-10-11 15:59:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Burger Menu/Notifications"), "checkable", "true", 0): Object 'Object Repository/Burger Menu/Notifications' has attribute 'checkable' with value 'true'
+
+2019-10-11 15:59:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/Burger Menu/Notifications' has attribute 'checkable' with value 'true'
+
+2019-10-11 15:59:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-10-11 15:59:20 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow" classname="Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow" status="PASSED">
+            <system-out>2019-10-11 15:59:20 - [TEST_CASE][PASSED] - Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow: Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow
+
+2019-10-11 15:59:20 - [TEST_STEP][PASSED] - startApplication("/Users/ayush/Desktop/APKs/Rplate26sept120.apk", true): Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:59:22 - [MESSAGE][INFO] - Appium server started on port 59,659
+
+2019-10-11 15:59:36 - [MESSAGE][PASSED] - Started app at: '/Users/ayush/Desktop/APKs/Rplate26sept120.apk'
+
+2019-10-11 15:59:36 - [TEST_STEP][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile(selectENV, 5): com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:59:37 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - QA' is present
+
+2019-10-11 15:59:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - QA'
+
+2019-10-11 15:59:38 - [MESSAGE][PASSED] - com.reviver.utils.CommonUtils.selectEnv_Mobile is PASSED
+
+2019-10-11 15:59:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 5): Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:40 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:40 - [TEST_STEP][PASSED] - tap(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 0): Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:59:42 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2019-10-11 15:59:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2019-10-11 15:59:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("LoginPage/FORGOT PASSWORD link"), 0): Element 'Object Repository/LoginPage/FORGOT PASSWORD link' is visible
+
+2019-10-11 15:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:43 - [MESSAGE][PASSED] - Element 'Object Repository/LoginPage/FORGOT PASSWORD link' is visible
+
+2019-10-11 15:59:43 - [TEST_STEP][PASSED] - tap(findTestObject("LoginPage/FORGOT PASSWORD link"), 0): Tapped on element 'Object Repository/LoginPage/FORGOT PASSWORD link'
+
+2019-10-11 15:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginPage/FORGOT PASSWORD link'
+
+2019-10-11 15:59:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Forgot password Page/Enter email texxtbox"), 5): Element 'Object Repository/Forgot password Page/Enter email texxtbox' is present
+
+2019-10-11 15:59:47 - [MESSAGE][PASSED] - Element 'Object Repository/Forgot password Page/Enter email texxtbox' is present
+
+2019-10-11 15:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot password Page/Enter email texxtbox"), "ayush", 0): Text 'ayush' has been set to element 'Object Repository/Forgot password Page/Enter email texxtbox'
+
+2019-10-11 15:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:48 - [MESSAGE][PASSED] - Text 'ayush' has been set to element 'Object Repository/Forgot password Page/Enter email texxtbox'
+
+2019-10-11 15:59:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Forgot password Page/field error"), "text", "Please enter a valid email.", 0): Object 'Object Repository/Forgot password Page/field error' has attribute 'text' with value 'Please enter a valid email.'
+
+2019-10-11 15:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot password Page/field error' has attribute 'text' with value 'Please enter a valid email.'
+
+2019-10-11 15:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot password Page/Enter email texxtbox"), "ayush.kumar+qa99@revivertest.com", 0): Text 'ayush.kumar+qa99@revivertest.com' has been set to element 'Object Repository/Forgot password Page/Enter email texxtbox'
+
+2019-10-11 15:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:50 - [MESSAGE][PASSED] - Text 'ayush.kumar+qa99@revivertest.com' has been set to element 'Object Repository/Forgot password Page/Enter email texxtbox'
+
+2019-10-11 15:59:50 - [TEST_STEP][PASSED] - tap(findTestObject("Forgot password Page/SEND button"), 0): Tapped on element 'Object Repository/Forgot password Page/SEND button'
+
+2019-10-11 15:59:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forgot password Page/SEND button'
+
+2019-10-11 15:59:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Forgot password Page/Alert title - Email Sent Successfully"), 0): Element 'Object Repository/Forgot password Page/Alert title - Email Sent Successfully' is present
+
+2019-10-11 15:59:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:55 - [MESSAGE][PASSED] - Element 'Object Repository/Forgot password Page/Alert title - Email Sent Successfully' is present
+
+2019-10-11 15:59:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Forgot password Page/ALert text"), "text", "Check your Inbox and click on the password reset link.", 0): Object 'Object Repository/Forgot password Page/ALert text' has attribute 'text' with value 'Check your Inbox and click on the password reset link.'
+
+2019-10-11 15:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot password Page/ALert text' has attribute 'text' with value 'Check your Inbox and click on the password reset link.'
+
+2019-10-11 15:59:55 - [TEST_STEP][PASSED] - tap(findTestObject("Forgot password Page/Alert button - OK"), 0): Tapped on element 'Object Repository/Forgot password Page/Alert button - OK'
+
+2019-10-11 15:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 15:59:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forgot password Page/Alert button - OK'
+
+2019-10-11 15:59:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 10): Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:58 - [MESSAGE][PASSED] - Element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN' is present
+
+2019-10-11 15:59:58 - [TEST_STEP][PASSED] - tap(findTestObject("StartPage/android.widget.TextView0 - SIGN IN"), 0): Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 15:59:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 16:00:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/StartPage/android.widget.TextView0 - SIGN IN'
+
+2019-10-11 16:00:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("LoginPage/android.widget.TextView0 - Sign In"), 0): Element 'Object Repository/LoginPage/android.widget.TextView0 - Sign In' is visible
+
+2019-10-11 16:00:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-11 16:00:00 - [MESSAGE][PASSED] - Element 'Object Repository/LoginPage/android.widget.TextView0 - Sign In' is visible
+
+2019-10-11 16:00:00 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-10-11 16:00:02 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-11 15:57:33 - [TEST_SUITE][INCOMPLETE] - Sanity Android APP: null</system-out>
+        <system-err>2019-10-11 15:57:33 - [TEST_SUITE][INCOMPLETE] - Sanity Android APP: null</system-err>
+    </testsuite>
+</testsuites>

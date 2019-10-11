@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/P0_Verify login with a user having no plates assigned yet</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>884c4bd3-75a5-433f-a922-a00cd8f571a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
