@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://revivermx.testrail.net/index.php?/cases/view/8289&amp;group_by=cases:section_id&amp;group_order=asc&amp;group_id=867</description>
+   <name>P0_Verify User can navigate to Account Settings</name>
+   <tag>P0</tag>
+   <comment></comment>
+   <testCaseGuid>2033d80a-100b-45f3-ba38-d594a2bc763c</testCaseGuid>
+</TestCaseEntity>

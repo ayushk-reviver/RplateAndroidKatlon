@@ -13,21 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.ApkLocation, true)
+WebUI.callTestCase(findTestCase('Loginintoapp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'com.reviver.utils.CommonUtils.selectEnv_Mobile'(GlobalVariable.selectENV, 5)
+Mobile.tap(findTestObject('Homepage/Burger Icon'), 0)
 
-Mobile.waitForElementPresent(findTestObject('StartPage/android.widget.TextView0 - SIGN IN'), 5)
+Mobile.verifyElementVisible(findTestObject('Burger Menu/Account settings'), 0)
 
-Mobile.tap(findTestObject('StartPage/android.widget.TextView0 - SIGN IN'), 0)
+Mobile.tap(findTestObject('Burger Menu/Account settings'), 0)
 
-Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter email'), findTestData(GlobalVariable.DataFile).getValue(
-        1, 1), 0)
+Mobile.waitForElementPresent(findTestObject('Account settings/Account Settings'), 0)
 
-Mobile.setText(findTestObject('LoginPage/android.widget.EditText0 - Enter password'), findTestData(GlobalVariable.DataFile).getValue(
-        2, 1), 0)
+Mobile.verifyElementVisible(findTestObject('Account settings/Sign Out'), 0)
 
-Mobile.tap(findTestObject('LoginPage/android.widget.Button0 - SIGN IN'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Homepage/Burger Icon'), 10)
+Mobile.closeApplication()
 

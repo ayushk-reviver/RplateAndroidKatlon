@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Forgot Password/P0_Verify User clicks on SignIn after forgot password flow</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>55779156-9a46-4aab-9385-6930f6209ac0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Account View(Menu)/P0_Verify User can navigate to Account Settings</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

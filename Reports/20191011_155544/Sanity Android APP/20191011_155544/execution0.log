@@ -3255,7 +3255,7 @@
   <message>Start listener action : exportKatalonReports</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log><record>
+<record>
   <date>2019-10-11T16:00:02</date>
   <millis>1570789802437</millis>
   <sequence>771</sequence>
@@ -3343,3 +3343,4 @@
   <message>End Test Suite : Test Suites/Sanity Android APP</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>

@@ -14,4 +14,9 @@
       <initValue>'QA'</initValue>
       <name>selectENV</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>App Location</description>
+      <initValue>'/Users/ayush/Desktop/APKs/Rplate26sept120.apk'</initValue>
+      <name>ApkLocation</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

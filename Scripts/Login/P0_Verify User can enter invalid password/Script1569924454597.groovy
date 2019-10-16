@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/ayush/Desktop/APKs/Rplate26sept120.apk', true)
+Mobile.startApplication(GlobalVariable.ApkLocation, true)
 
 CustomKeywords.'com.reviver.utils.CommonUtils.selectEnv_Mobile'(GlobalVariable.selectENV, 5)
 
